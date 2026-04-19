@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "HackTube",
+    "slug": "app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/splash-v2-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-v3-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f0f0f"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0f0f0f",
+        "foregroundImage": "./assets/splash-v2-icon.png"
+      },
+      "package": "com.anonymous.app",
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "30052b20-3498-481a-90a0-ac9d22082ce7"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/30052b20-3498-481a-90a0-ac9d22082ce7"
+    }
+  }
+}
